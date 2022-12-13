@@ -1,5 +1,8 @@
-from pantallas import Partida #importar la clase Partida
 
-juego = Partida() #creamos objeto de la clase Partida
+from scene_controller import SceneController
 
-juego.bucle_fotograma() #llamamos al bucle de fotograma
+inicio =SceneController()
+
+inicio.start()
+
+
